@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 10vh;
+
+    border: solid 1px black;
+}
+
+main {
+    height: 80vh;
+
+    border: solid 1px black;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background-color: rgba(0, 0, 0, 0.05);
+    width: 100%;
+}
+
+.quadrado {
+    width: 200px;
+    height: 200px;
+}
+
+.vermelho {
+    background-color: red;
+}
+
+.amarelo {
+    background-color: yellow;
+}
+
+.azul {
+    background-color: blue;
+}
+
+footer {
+    height: 10vh;
+    
+    border: solid 1px black;
+}
